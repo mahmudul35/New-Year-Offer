@@ -101,6 +101,7 @@
   background-size: cover;
   margin: 0 auto;
   margin-top: 40px;
+  margin-bottom: 120px;
 }
 .midnight-party-content {
   display: flex;
@@ -131,4 +132,43 @@
   max-width: 697px;
   max-height: 60px;
   opacity: 0.8;
+}
+
+/* Place section starts here */
+.place-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1320px;
+  min-height: 483px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  background: linear-gradient(rgb(236, 166, 166, 0.8), rgb(243, 150, 150, 0.5));
+}
+
+.place-content {
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+.place-content h2 {
+  margin-top: 24px;
+  text-align: center;
+}
+.red-color {
+  color: #ff0000;
+}
+.join-now-btn {
+  padding: 10px 32px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+.text-align {
+  text-align: center;
 }
