@@ -21,7 +21,7 @@
 /* Header section starts here */
 .banner-container {
   /* margin: 50px 140px 120px 140px; */
-
+  border-radius: 10px;
   max-width: 1320px;
   min-height: 600px;
   background-image: url("../images/Banner\ Image.png");
@@ -48,11 +48,16 @@
   font-size: 72px;
   text-align: center;
 }
+/* main section strts here */
+/* main section {
+  margin: 120px 0;
+} */
 
 /* Offer section starts here */
 .offer {
-  margin: 0 auto;
-  margin-top: 120px;
+  margin: 120px auto;
+  /* margin-top: 120px;
+  margin-bottom: 12px; */
   max-width: 803px;
   max-height: 806px;
   display: flex;
@@ -83,4 +88,47 @@
 .offer-image-section {
   width: 803px;
   height: 500px;
+}
+
+/* Midnight party section starts here */
+.midnight-party {
+  max-width: 1320px;
+  min-height: 600px;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.midnight-party-content {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+  margin-left: 120px;
+}
+.midnight-party-content a {
+  text-decoration: none;
+  margin: 48px 0 0px 32px;
+  color: white;
+}
+.midnight-party-content a:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+.midnight-party-content h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 900;
+  height: 176px;
+  margin-bottom: 24px;
+}
+.midnight-party-content p {
+  color: white;
+  max-width: 697px;
+  max-height: 60px;
+  opacity: 0.8;
 }
