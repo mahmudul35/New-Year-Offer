@@ -172,3 +172,101 @@
 .text-align {
   text-align: center;
 }
+
+/* Best offer section started */
+.best-offer {
+  max-width: 1320px;
+  min-height: 463px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.best-offer-col1,
+.best-offer-col2,
+.best-offer-col3 {
+  width: 30%;
+}
+
+.best-offer-col1 h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.best-offer-col1 h1 {
+  font-size: 32px;
+  margin-bottom: 22px;
+}
+.best-offer-col2 {
+  border: 10px solid #ff0000;
+  border-radius: 50% 50% 50% 50%;
+  text-align: center;
+  padding: 15px;
+}
+.best-offer-col2 img {
+  width: 300px;
+  height: 300px;
+}
+.best-offer-col3 h1 {
+  margin-bottom: 16px;
+}
+
+.best-offer-col3 img {
+  margin-top: 40px;
+  width: 143px;
+  height: 143px;
+}
+
+/* Holiday section starts here */
+.holiday-container {
+  max-width: 1320px;
+  height: 987px;
+  margin: 0 auto;
+  position: relative;
+}
+.holiday-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 968px;
+  margin: 0 auto;
+}
+.holiday-container h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.holiday-container h1 {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.holiday-description {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.holiday-image {
+  position: absolute;
+  top: 77%;
+}
+.holiday-image img {
+  height: 229px;
+}
+.group-75 {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.group-75 img {
+  width: 70%;
+  height: 90%;
+}
+.group-44 {
+  position: absolute;
+  right: 3%;
+  top: 47%;
+}
